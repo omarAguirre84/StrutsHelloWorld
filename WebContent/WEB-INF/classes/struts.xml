@@ -3,12 +3,12 @@
 	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
 	<constant name="struts.devMode" value="false" />
 	<constant name="struts.custom.i18n.resources" value="global" />
-	
+
 	<package name="default" extends="struts-default" namespace="/">
-		<action name="login" class="net.viralpatel.struts2.LoginAction">
+		<action name="login" class="struts2.LoginAction">
 			<result name="success">Welcome.jsp</result>
 			<result name="error">Login.jsp</result>
 		</action>
 	</package>
-	
+
 </struts>
